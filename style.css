@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    background: #27e6cc;
+    font-size: 12px;
+}
+body,input,button,label {
+    font-family: 'Architects Daugter', sans-serif;
+    font-weight: 600;
+}
+.label{
+    font-size: 20px;
+    color: #90e9dd;
+}
+.background{
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    flex: 0 2 400px;
+    margin: auto;
+    padding: 10px;
+}
+.screen{
+    background-color: rgb(89, 63, 63);
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+}
+.screen-items{
+    padding: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.app-form{
+    padding: 10px;
+    margin: 35px;
+}
+.app-form-group{
+    padding: 5px;
+    width: 100%;
+}
+.app-form-number , .app-form-message{
+    outline: none;
+    padding: 5px;
+    border: 3px solid #27e6cc;
+    border-radius: 5px;
+    
+}
+.app-form-message{
+    height: 150px;
+    width: 100%;  
+    overflow-y: scroll;
+}
+.app-form-button{
+    outline: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    color: #3e3e3e;
+    background-color: #27e6cc;
+}
+.app-form-button:hover{
+    background-color: #519188;
+    cursor: pointer;
+}
