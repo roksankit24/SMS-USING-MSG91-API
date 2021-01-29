@@ -87,7 +87,7 @@ if ($err) {
 } 
 else 
 {
-    echo $response;
+    echo "SMS is sent to $mobileNumber using $response";
 }
 }
 
