@@ -61,7 +61,7 @@ if(isset($_POST['submit']))
         'default' => $route
     );
     
-    $url="http://api.msg91.com/api/v2/sendsms";
+    $url="http://api.msg91.com/api/httpsms.php";
 
 
     $curl = curl_init();
