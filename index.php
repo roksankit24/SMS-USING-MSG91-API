@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div></div>
         <div class="background">
             <div class="container">
                 <h1>Web App to Send Message Using <br>PHP [MSG91 API]</h1>
